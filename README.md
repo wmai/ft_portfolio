@@ -5,7 +5,7 @@
 ##Algorithmie
 - **libft** : Recoder un ensemble de fonctions de la *libc* + quelques fonctions supplémentaires.
 - **get_next_line** : Fonction qui retourne une ligne lue dans un descripteur de fichier.
-- **push_swap** : Petit jeu d'algorithmie. Tri sur liste avec uniquement un certain nombre actions autorisées. **(On going)**
+- **push_swap** : Petit jeu d'algorithmie. Tri sur liste avec un certain nombre actions autorisées. **(On going)**
 
 ##Unix
 - **ft_printf** : Recoder la fonction *printf(3)*. **(On going)**
