@@ -6,7 +6,7 @@
 #    By: wmai <wmai@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2014/11/14 20:36:56 by wmai              #+#    #+#              #
-#    Updated: 2015/03/07 21:08:32 by wmai             ###   ########.fr        #
+#    Updated: 2015/03/08 01:45:03 by wmai             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,7 @@ OBJ = $(SOURCE:.c=.o)
 all : $(NAME)
 
 $(NAME) : $(OBJ)
-		@echo "\033[35;1m• \033[0mCreating \033[35m$(NAME)\033[0m archive ...\033[55G\c"
+		@echo "\033[35;1m• \033[0mCreating \033[35m$(NAME)\033[0m archive...\033[55G\c"
 		@export result=`ar rcs $@ $(OBJ) 2>&1` ; \
 		if [ "$$result" = "" ] ; then \
 			echo "\033[37;1m[\033[32mOK !\033[37m]\033[0m" ; \
@@ -43,7 +43,7 @@ $(NAME) : $(OBJ)
 		fi
 
 %.o : %.c inc/libft.h
-		@echo "\033[35;1m• \033[0mCreating \033[35m$(NAME)\033[0m object file $@ ...\033[55G\c"
+		@echo "\033[35;1m• \033[0mCreating \033[35m$(NAME)\033[0m object file...\033[55G\c"
 		@export result=`$(CC) $(CFLAGS) -c $< -o $@ 2>&1` ; \
 		if [ "$$result" = "" ] ; then \
 			echo "\033[37;1m[\033[32mOK !\033[37m]\033[0m" ; \
@@ -54,12 +54,12 @@ $(NAME) : $(OBJ)
 		fi
 
 clean :
-		@echo "\033[35;1m• \033[0mRemoving \033[35m$(NAME)\033[0m object files ...\033[55G\c"
+		@echo "\033[35;1m• \033[0mRemoving \033[35m$(NAME)\033[0m object files...\033[55G\c"
 		@rm -rf $(OBJ)
 		@echo "\033[37;1m[\033[32mOK !\033[37m]\033[0m"
 
 fclean : clean
-		@echo "\033[35;1m• \033[0mRemoving \033[35m$(NAME)\033[0m ...\033[55G\c"
+		@echo "\033[35;1m• \033[0mRemoving \033[35m$(NAME)\033[0m...\033[55G\c"
 		@rm -rf $(NAME)
 		@echo "\033[37;1m[\033[32mOK !\033[37m]\033[0m"
 

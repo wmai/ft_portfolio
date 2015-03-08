@@ -7,6 +7,7 @@
 ##Algorithmie
 - **libft** : Recoder un ensemble de fonctions de la *libc* + quelques fonctions supplémentaires.
 - **get_next_line** : Fonction qui retourne une ligne lue dans un descripteur de fichier.
+- **2048** : Recoder le jeu [2048](http://jeu2048.fr/).
 - ~~**push_swap** : Petit jeu d'algorithmie. Tri sur liste avec un certain nombre actions autorisées.~~
 
 ##Unix
