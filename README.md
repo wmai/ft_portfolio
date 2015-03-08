@@ -2,7 +2,7 @@
 
 **Un aperçu des projets les plus importants effectués à l'école 42.**
 
-**N. B.** Les projets ~~barré~~ sont en cours de développement.
+**N. B.** Les projets ~~barrés~~ sont en cours de développement.
 
 ##Algorithmie
 - **libft** : Recoder un ensemble de fonctions de la *libc* + quelques fonctions supplémentaires.
