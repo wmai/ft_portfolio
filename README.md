@@ -1,6 +1,6 @@
 # ft_portfolio
 
-**Un aperçu des projets les plus importants effectués à l'école 42.**
+*Un aperçu des projets les plus importants effectués à l'école 42.*
 
 ##Algorithmie
 - **libft** : Recoder un ensemble de fonctions de la *libc* + quelques fonctions supplémentaires.
