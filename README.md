@@ -1,6 +1,7 @@
 # ft_portfolio
 
 Un aperçu des projets les plus importants effectués à l'école 42.
+
 *Les projets ~~barré~~ sont en cours de développement.*
 
 ##Algorithmie
