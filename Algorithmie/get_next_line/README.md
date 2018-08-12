@@ -2,7 +2,7 @@
 
 **Note obtenue : 92/100**
 
-##Partie obligatoire
+## Partie obligatoire
 
 - Ecrivez une fonction qui retourne une ligne lue dans un descripteur de fichier.
 - On appelle “ligne” une suite de caractères terminée par un ’\n’ (code ascii 0x0a) ou bien par End Of File (EOF).
@@ -17,7 +17,7 @@ int get_next_line(int const fd, char ** line);
 - Un appel en boucle à votre fonction get_next_line permettra donc de lire le texte disponible sur un descripteur de fichier une ligne à la fois jusqu’à la fin du texte.
 - Assurez-vous que votre fonction se comporte bien lorsqu’elle lit depuis un fichier, depuis l’entrée standard, depuis une redirection, etc.
 
-##Considérations techniques
+## Considérations techniques
 
 - Votre fichier *get_next_line.h* doit au moins contenir le prototype de la fonction *get_next_line* et une macro permettant de choisir le nombre de caractères maximum lus à chaque appel de read. Cette valeur sera modifiée en soutenance pour évaluer la robustesse de votre rendu. Par exemple :
 ```c
