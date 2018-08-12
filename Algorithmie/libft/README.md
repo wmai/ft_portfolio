@@ -2,7 +2,7 @@
 
 **Note obtenue : 85/100**
 
-##Part 1 - Fonctions de la libc
+## Part 1 - Fonctions de la libc
 
 Dans cette première partie, vous devez recoder un ensemble de fonctions de la **libc** telles que décrites dans leur man respectif sur votre système. Vos fonctions devront avoir exactement le même prototype et le même comportement que les originales. Leur nom devra être préfixé par “*ft_*”. Par exemple *strlen* devient *ft_strlen*.
 
@@ -36,7 +36,7 @@ Vous devez recoder les fonctions suivantes :
 - toupper
 - tolower
 
-##Part 2 - Fonctions supplémentaires
+## Part 2 - Fonctions supplémentaires
 
 Dans cette seconde partie, vous devrez coder un certain nombre de fonctions absentes de la **libc** ou présentes dans une forme différente. Certaines de ces fonctions peuvent avoir de l’intéret pour faciliter l’écriture des fonctions de la première partie.
 
