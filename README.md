@@ -4,15 +4,15 @@
 
 **N. B.** Les projets ~~barrés~~ sont en cours de développement.
 
-##Algorithmie
+## Algorithmie
 - **libft** : Recoder un ensemble de fonctions de la *libc* + quelques fonctions supplémentaires.
 - **get_next_line** : Fonction qui retourne une ligne lue dans un descripteur de fichier.
 - **2048** : Recoder le jeu [2048](http://jeu2048.fr/).
 - **push_swap** : Petit jeu d'algorithmie. Tri sur liste avec un certain nombre d'actions autorisées.
 
-##Infographie
+## Infographie
 - **FdF** : Créer graphiquement la representation schématique d’un terrain en relief.
 
-##Unix
+## Unix
 - ~~**ft_printf** : Recoder la fonction *printf(3)*.~~
 - ~~**ft_ls** : Recoder la fonction systeme *ls*.~~
