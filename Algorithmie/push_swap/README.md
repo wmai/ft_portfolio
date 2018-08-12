@@ -1,8 +1,8 @@
-#push_swap
+# push_swap
 
 **Note obtenue : ??/100**
 
-##Description du jeu
+## Description du jeu
 
 - Le jeu est constitué de 2 piles nommées **a** et **b** (si vous savez pas ce qu’est une pile, Google est votre ami).
 - Au départ **b** est vide et **a** contient un certain nombre de nombres positifs ou négatifs (sans doublons).
@@ -20,7 +20,7 @@
  - **rrb** : reverse rotate b (vers le bas, le dernier élément devient le premier).
  - **rrr** : rra et rrb en même temps.
 
-##Sujet
+## Sujet
 
 - Vous devez faire un programme qui prend en paramètre la pile a sous la forme d’une liste de nombres. Le premier paramètre est au sommet de la pile (attention donc à l’ordre).
 - Le programme doit afficher la suite d’opérations qui permet de trier la pile, le plus petit nombre étant au sommet. Les opérations seront affichées separées par un espace, pas d’espace au debut ni à la fin, le tout suivi d’un ’\n’.
@@ -34,7 +34,7 @@ En cas d’erreur, vous afficherez "Error" suivi d’un ’\n’ sur la sortie d
 exemple, certains paramètres ne sont pas des nombres, ou ne tiennent pas dans un int
 (qui est le type d’un élément sur les piles), ou encore il y a des doublons.
 
-##Test
+## Test
 
 Ligne de commande qui compte le nombre d'opération efféctuée sur un intervalle de 10.000 nombres :
 ```
